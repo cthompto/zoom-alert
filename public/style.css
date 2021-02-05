@@ -1,0 +1,43 @@
+/* this file is loaded by index.html and styles the page */
+
+
+body {
+  font-family: sans-serif;
+  margin: 2em 1em;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+h1 {
+  font-style: bold;
+  color: DarkMagenta;
+  line-height: 1.1;
+}
+
+button {
+  background-color: Aquamarine;
+  border: 2px solid currentColor;
+  border-radius: .25em;
+  cursor: pointer;
+  font-size: inherit;
+  line-height: 1.4em;
+  padding: 0.25em 1em;
+  max-width: 20ch;
+}
+
+button:hover {
+  background-color: lavender;
+}
+
+footer {
+  margin-top: 3em;
+  padding-top: 1.5em;
+  border-top: 1px solid lightgrey;
+}
+
+#billboard {
+  margin: auto;
+  background-color: black;
+  height: 500px;
+  width: 500px;
+}
